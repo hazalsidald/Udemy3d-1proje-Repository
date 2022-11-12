@@ -760,11 +760,19 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1935131268, guid: 74343ee489912314cb6bb4e474412c2b, type: 3}
       propertyPath: m_Drag
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 1935131268, guid: 74343ee489912314cb6bb4e474412c2b, type: 3}
       propertyPath: m_Mass
-      value: 2
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1935131268, guid: 74343ee489912314cb6bb4e474412c2b, type: 3}
+      propertyPath: m_Constraints
+      value: 56
+      objectReference: {fileID: 0}
+    - target: {fileID: 1935131268, guid: 74343ee489912314cb6bb4e474412c2b, type: 3}
+      propertyPath: m_CollisionDetection
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 296142361633377418, guid: 74343ee489912314cb6bb4e474412c2b, type: 3}
       propertyPath: m_Mesh

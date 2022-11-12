@@ -18,7 +18,7 @@ namespace Udemy1proje.Inputs
         {
             _input = new DeafultAction();//DefaultAction burda newliyorum.
             _input.Rocket.ForceUp.performed += context => IsForceUp = context.ReadValueAsButton();//perfomed bu iþlem oldu perfonmasý göterdi bu bir eventtir.
-            _input.Enable();                                                                      //action adýmýz rocket,//context parametre adýdýr.
+            _input.Enable();//bu olmayýnca çalýþmýyor.                                            //action adýmýz rocket,//context parametre adýdýr.
                                                                                                   //ReadValueAsButton, bana true false döner.
         }
 
